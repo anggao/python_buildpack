@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/usr/bin/bash
 # bin/compile <build-dir> <cache-dir> <env-path>
 
 set -eo pipefail           # Fail fast and fail hard.
