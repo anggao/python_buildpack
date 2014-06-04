@@ -11,6 +11,9 @@ BUILD_DIR=$1
 CACHE_DIR=$2
 ENV_DIR=$3
 
+echo $(which python)
+python --version
+
 # Install pip
 python $ROOT_DIR/get-pip.py
 
