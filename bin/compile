@@ -1,10 +1,8 @@
 #!/usr/bin/bash
 # bin/compile <build-dir> <cache-dir> <env-path>
-
-set -eo pipefail           # Fail fast and fail hard.
+set -eo pipefail # Fail fast and fail hard.
 
 # Paths
-
 BIN_DIR=$(cd $(dirname $0); pwd)    # absolute path
 ROOT_DIR=$(dirname $BIN_DIR)
 BUILD_DIR=$1
